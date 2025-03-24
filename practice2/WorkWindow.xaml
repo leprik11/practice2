@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:practice2"
         mc:Ignorable="d"
-        Title="WorkWindow" Height="480" Width="840">
+        Title="WorkWindow" Height="480" Width="840" Loaded="Window_loaded">
     <Grid>
         <Label x:Name="lUser" Content="Label" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Height="46" Width="340" FontSize="24"/>
         <DataGrid x:Name="dgMain" HorizontalAlignment="Left" Height="263" Margin="16,173,0,0" VerticalAlignment="Top" Width="642">
